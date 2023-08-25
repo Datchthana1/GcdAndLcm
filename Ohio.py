@@ -18,7 +18,7 @@ class University:
     def Output(self):
         return self.UniversityName + " and You are in " + self.Department
     def Input():
-        UniversityName = str(input("Please Type your University : "))
-        Department = str(input("Please Type your Department  : "))
+        UniversityName = str(input("What is your University Name? : "))
+        Department = str(input("What is your department? : "))
         U1 = University(UniversityName,Department)
         print(U1.Output())
