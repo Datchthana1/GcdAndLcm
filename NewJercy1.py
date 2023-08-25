@@ -3,7 +3,7 @@ import Ohio as O
 O.Name.Input()
 Loop = True
 while Loop == True:
-    choose = str(input("GCD or LCM\n 1:GCD\nกด 2:LCM\nWhich do you want to do?\n : "))
+    choose = str(input("GCD or LCM\n 1:GCD\n 2:LCM\nWhich do you want to do?\n : "))
     Number1 = int(input("Number1 : "))
     Number2 = int(input("Number2 : "))
     if choose == "1":
