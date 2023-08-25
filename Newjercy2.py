@@ -1,3 +1,6 @@
+import Ohio as O 
+O.Name.Input()
+O.University.Input()
 Choose = str(input("Which method do you want to do? 1:GCD 2:LCM : "))
 Number1 = int(input("Num1 : "))
 Number2 = int(input("NUm2 : "))

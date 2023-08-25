@@ -12,13 +12,13 @@ class Name:
         P1 = Name(Fname,Lname,StudentID)
         print(P1.GetFnandLn())
 class University:
-    def __str__(self,UniversityName,Department):
+    def __init__(self,UniversityName,Department):
         self.UniversityName = UniversityName
         self.Department = Department
     def Output(self):
-        return self.UniversityName + "and in Department : " + self.Department
+        return self.UniversityName + " and You are in " + self.Department
     def Input():
-        UniversityName = str(input("What is your University Name? : "))
-        Department = str(input("What is your department? : "))
+        UniversityName = str(input("Please Type your University : "))
+        Department = str(input("Please Type your Department  : "))
         U1 = University(UniversityName,Department)
-        print(U1)
+        print(U1.Output())
