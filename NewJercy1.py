@@ -9,11 +9,11 @@ while Loop == True:
     if choose == "1":
         print("You choose GCD")
         if Number1 > 0 and Number2 > 0:
-            print("GCD is {}".format(m.gcd(Number1,Number2)))
+            print(f"GCD is {m.gcd(Number1,Number2)}")
     elif choose == "2":
         print("You choose LCM")
         if Number1 > 0 and Number2 > 0:
-            print("LCM is {}".format(m.lcm(Number1,Number2)))
+            print(f"LCM is {m.lcm(Number1,Number2)}")
     else:
         print("Cannot define??!")
     ways = str(input("Do you want to repeat? 1 = Yes 2 = No : "))
